@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0" errors="1" skipped="0" tests="1" name="cn.itcast.TestTbTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\develop\Java\jdk1.7.0_45\jre\bin"/>
+    <property name="java.vm.version" value="24.45-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\babasportworkspace\parent"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\babasportworkspace\parent"/>
+    <property name="java.runtime.version" value="1.7.0_45-b18"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\develop\Java\jdk1.7.0_45\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\libin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\babasportworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4507989318407713960.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\develop\Java\jdk1.7.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/develop/Java/jdk1.7.0_45/bin/../jre/bin/client;D:/develop/Java/jdk1.7.0_45/bin/../jre/bin;D:/develop/Java/jdk1.7.0_45/bin/../jre/lib/i386;D:\Oracle\app\oracle\product\10.2.0\server\bin;D:\develop\Java\jdk1.7.0_45\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files\MySQL\MySQL Server 5.5\bin;D:\MySQL\MySQL Server 5.5\bin;D:\Maven\apache-maven-3.3.9\bin;D:\TortoiseSVN\bin;D:\VisualSVN Server\bin;D:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;D:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;D:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;D:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;D:\eclipse-mars-2;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\libin"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="libin"/>
+    <property name="java.class.path" value="D:\mavenbabasport\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="D:\develop\Java\jdk1.7.0_45\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s D:\babasportmaven\settings.xml clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_45"/>
+    <property name="java.ext.dirs" value="D:\develop\Java\jdk1.7.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\develop\Java\jdk1.7.0_45\jre\lib\resources.jar;D:\develop\Java\jdk1.7.0_45\jre\lib\rt.jar;D:\develop\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;D:\develop\Java\jdk1.7.0_45\jre\lib\jsse.jar;D:\develop\Java\jdk1.7.0_45\jre\lib\jce.jar;D:\develop\Java\jdk1.7.0_45\jre\lib\charsets.jar;D:\develop\Java\jdk1.7.0_45\jre\lib\jfr.jar;D:\develop\Java\jdk1.7.0_45\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\mavenbabasport\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0" classname="cn.itcast.TestTbTest" name="testAdd">
+    <error message="
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+### The error may involve cn.itcast.core.dao.TestTbDao.insertTestTb-Inline
+### The error occurred while setting parameters
+### SQL: insert into test_tb    (id,name,birthday)   values   (?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist" type="org.springframework.jdbc.BadSqlGrammarException">org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+### The error may involve cn.itcast.core.dao.TestTbDao.insertTestTb-Inline
+### The error occurred while setting parameters
+### SQL: insert into test_tb    (id,name,birthday)   values   (?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:231)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy20.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy26.insertTestTb(Unknown Source)
+	at cn.itcast.TestTbTest.testAdd(TestTbTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:73)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3536)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3468)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1957)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2107)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2648)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2086)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1365)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:62)
+	at com.sun.proxy.$Proxy38.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy36.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.github.abel533.mapperhelper.MapperInterceptor.intercept(MapperInterceptor.java:61)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:60)
+	at com.sun.proxy.$Proxy34.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 41 more
+</error>
+    <system-out>2017-09-09 20:11:16,758 [main] [org.springframework.test.context.support.DirtiesContextTestExecutionListener]-[DEBUG] After test class: context [DefaultTestContext@1aabda3 testClass = ITestTbServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@14790be testClass = ITestTbServiceTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], dirtiesContext [false].
+2017-09-09 20:11:16,758 [main] [org.springframework.test.context.junit4.SpringJUnit4ClassRunner]-[DEBUG] SpringJUnit4ClassRunner constructor called with [class cn.itcast.TestTbTest].
+2017-09-09 20:11:16,759 [main] [org.springframework.test.context.BootstrapUtils]-[DEBUG] Instantiating TestContextBootstrapper from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2017-09-09 20:11:16,759 [main] [org.springframework.test.context.support.AbstractDelegatingSmartContextLoader]-[DEBUG] Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@4c3f8f declaringClass = &apos;cn.itcast.TestTbTest&apos;, classes = &apos;{}&apos;, locations = &apos;{classpath:application-context.xml}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
+2017-09-09 20:11:16,760 [main] [org.springframework.test.context.support.ActiveProfilesUtils]-[DEBUG] Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [cn.itcast.TestTbTest]
+2017-09-09 20:11:16,760 [main] [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[DEBUG] @TestExecutionListeners is not present for class [cn.itcast.TestTbTest]: using defaults.
+2017-09-09 20:11:16,762 [main] [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-09-09 20:11:16,763 [main] [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1adcba4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@114967d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@a41535, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6c4f01, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@b6f1d9]
+2017-09-09 20:11:16,763 [main] [org.springframework.test.annotation.ProfileValueUtils]-[DEBUG] Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.itcast.TestTbTest]
+2017-09-09 20:11:16,764 [main] [org.springframework.test.annotation.ProfileValueUtils]-[DEBUG] Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.itcast.TestTbTest]
+2017-09-09 20:11:16,764 [main] [org.springframework.test.annotation.ProfileValueUtils]-[DEBUG] Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.itcast.TestTbTest]
+2017-09-09 20:11:16,767 [main] [org.springframework.test.annotation.ProfileValueUtils]-[DEBUG] Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.itcast.TestTbTest]
+2017-09-09 20:11:16,768 [main] [org.springframework.test.annotation.ProfileValueUtils]-[DEBUG] Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.itcast.TestTbTest]
+2017-09-09 20:11:16,768 [main] [org.springframework.test.annotation.ProfileValueUtils]-[DEBUG] Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.itcast.TestTbTest]
+2017-09-09 20:11:16,768 [main] [org.springframework.test.context.support.DependencyInjectionTestExecutionListener]-[DEBUG] Performing dependency injection for test context [[DefaultTestContext@598926 testClass = TestTbTest, testInstance = cn.itcast.TestTbTest@3b2e61, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1620e81 testClass = TestTbTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]].
+2017-09-09 20:11:16,769 [main] [org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate]-[DEBUG] Retrieved ApplicationContext from cache with key [[MergedContextConfiguration@1620e81 testClass = TestTbTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]
+2017-09-09 20:11:16,769 [main] [org.springframework.test.context.cache]-[DEBUG] Spring test ApplicationContext cache statistics: [ContextCache@195fdf3 size = 1, hitCount = 1, missCount = 1, parentContextCount = 0]
+2017-09-09 20:11:16,772 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean &apos;cn.itcast.TestTbTest&apos;: AutowiredFieldElement for private cn.itcast.core.dao.TestTbDao cn.itcast.TestTbTest.testTbDao
+2017-09-09 20:11:16,773 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;testTbDao&apos;
+2017-09-09 20:11:16,773 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name &apos;cn.itcast.TestTbTest&apos; to bean named &apos;testTbDao&apos;
+2017-09-09 20:11:16,774 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:16,775 [main] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2017-09-09 20:11:16,775 [main] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f0cf] was not registered for synchronization because synchronization is not active
+2017-09-09 20:11:16,775 [main] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2017-09-09 20:11:16,776 [main] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@8d5fa] will not be managed by Spring
+2017-09-09 20:11:16,776 [main] [cn.itcast.core.dao.TestTbDao.insertTestTb]-[DEBUG] ==&gt;  Preparing: insert into test_tb (id,name,birthday) values (?,?,?) 
+2017-09-09 20:11:16,776 [main] [cn.itcast.core.dao.TestTbDao.insertTestTb]-[DEBUG] ==&gt; Parameters: null, �����(String), 2017-09-09 20:11:16.775(Timestamp)
+2017-09-09 20:11:16,778 [main] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f0cf]
+2017-09-09 20:11:16,778 [main] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2017-09-09 20:11:16,778 [main] [org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator]-[DEBUG] Translating SQLException with SQL state &apos;42S02&apos;, error code &apos;1146&apos;, message [Table &apos;babasport.test_tb&apos; doesn&apos;t exist]; SQL was [] for task [
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+### The error may involve cn.itcast.core.dao.TestTbDao.insertTestTb-Inline
+### The error occurred while setting parameters
+### SQL: insert into test_tb    (id,name,birthday)   values   (?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+]
+2017-09-09 20:11:16,779 [main] [org.springframework.test.context.support.DirtiesContextTestExecutionListener]-[DEBUG] After test method: context [DefaultTestContext@598926 testClass = TestTbTest, testInstance = cn.itcast.TestTbTest@3b2e61, testMethod = testAdd@TestTbTest, testException = org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+### The error may involve cn.itcast.core.dao.TestTbDao.insertTestTb-Inline
+### The error occurred while setting parameters
+### SQL: insert into test_tb    (id,name,birthday)   values   (?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist, mergedContextConfiguration = [MergedContextConfiguration@1620e81 testClass = TestTbTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class dirties context [false], class mode [null], method dirties context [false].
+</system-out>
+  </testcase>
+</testsuite>

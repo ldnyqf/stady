@@ -1,0 +1,59 @@
+package cn.itcast.core.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import cn.itcast.core.bean.Brand;
+import cn.itcast.core.dao.BrandDao;
+import cn.itcast.core.service.BrandService;
+import cn.itcast.core.tools.PageHelper;
+import cn.itcast.core.tools.PageHelper.Page;
+
+@Service("brandService")
+public class BrandServiceImpl implements BrandService {
+
+	@Autowired
+	private BrandDao brandDao;
+
+	@Override
+	public List<Brand> findAll() {
+		// TODO Auto-generated method stub
+		return brandDao.findAll();
+	}
+
+	@Override
+	public Page<Brand> queryByNameAndIsDisplay(Brand brand, Integer pageNum, Integer pageSize) {
+		// TODO Auto-generated method stub
+		PageHelper.startPage(pageNum, pageSize);
+		brandDao.queryByExample(brand);
+		Page<Brand> endPage = PageHelper.endPage();
+		return endPage;
+	}
+
+	@Override
+	public Brand queryById(Integer id) {
+		// TODO Auto-generated method stub
+		return brandDao.queryById(id);
+	}
+
+	@Override
+	public void brandEditSave(Brand brand) {
+		// TODO Auto-generated method stub
+		brandDao.brandEditSave(brand);
+	}
+
+	@Override
+	public void deleteById(Integer id) {
+		// TODO Auto-generated method stub
+		brandDao.deleteById(id);
+	}
+
+	@Override
+	public void deletesByIds(Long[] ids) {
+		// TODO Auto-generated method stub
+		brandDao.deletesByIds(ids);
+	}
+
+}

@@ -1,0 +1,17 @@
+package cn.itcast.core.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping()
+@Controller
+public class ProductController {
+
+	// 通用product页面跳转
+	@RequestMapping(value = "console/product/{pageName}")
+	public String toproduct(@PathVariable("pageName") String pageName) {
+		return "product/" + pageName;
+	}
+
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- <settings>
+		延迟加载 二级缓存 本项目不用 
+		<setting name="" value=""/>
+	</settings> -->
+	<!-- 别名 如果采用逆向工程 别名也不用配 所以下面的配置可以省略 -->
+	<typeAliases>
+		<package name="cn.itcast.core.bean"/>
+	</typeAliases>
+	<!-- mapper.xml 位置配置 已经在sping整合文件配置了，这里不用再配置 ,
+	因为整合文件采用的是接口包扫描 没有配置mapper映射文件的位置 所以要吧接口和mapper文件放在同一个包下 -->
+	
+</configuration>

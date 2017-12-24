@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- <settings>
+		延迟加载 二级缓存 本项目不用 
+		<setting name="" value=""/>
+	</settings> -->
+	<!-- 别名 如果采用逆向工程 别名也不用配 所以下面的配置可以省略 -->
+	<settings>
+		<!-- 开启驼峰匹配，经典的数据库列名（多个单词时，以下划线连接）到经典java属性名（多个单词时，以驼峰命名） -->
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+	</settings>
+	<typeAliases>
+		<package name="cn.itcast.core.bean"/>
+	</typeAliases>
+	<!-- mapper.xml 位置配置 已经在sping整合文件配置了，这里不用再配置 ,
+	因为整合文件采用的是接口包扫描 没有配置mapper映射文件的位置 所以要吧接口和mapper文件放在同一个包下 -->
+	<plugins>
+		<!-- 自定义分页插件 -->
+		<plugin interceptor="cn.itcast.core.tools.PageHelper"></plugin>
+	</plugins>
+</configuration>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: springBootDemo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: libin
+Implementation-Vendor-Id: cn.zkht.springBootDemo
+Build-Jdk: 1.8.0_144
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

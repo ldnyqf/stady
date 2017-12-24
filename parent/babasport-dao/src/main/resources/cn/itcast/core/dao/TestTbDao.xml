@@ -1,0 +1,14 @@
+<?xml version= "1.0" encoding ="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 因为采用mapper接口的动态代理实现 所以名称空间要采用 接口的全路径 -->
+<mapper namespace="cn.itcast.core.dao.TestTbDao">
+	<!-- 保存 -->
+	<insert id="insertTestTb" parameterType="TestTb">
+		insert into test_tb 
+		(id,name,birthday)
+		values
+		(#{id},#{name},#{birthday})
+	</insert>
+</mapper>

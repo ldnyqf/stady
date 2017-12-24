@@ -1,0 +1,64 @@
+<?xml version= "1.0" encoding ="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.core.dao.SkuDao">
+
+	<resultMap type="Sku" id="skuColorMap" autoMapping="true">
+		<id column="id" property="id"/>
+		<association property="color" javaType="Color" autoMapping="true">
+			<id column="color_id" property="id"/>
+		</association>
+	
+	</resultMap>
+
+	<select id="selectByProductId" resultMap="skuColorMap">
+	SELECT * FROM bbs_sku s
+		LEFT JOIN bbs_color c 
+		ON s.color_id=c.id
+	WHERE s.product_id=#{productId}
+	</select>
+	
+	<update id="updateByPrimaryKeySelective"  parameterType="Sku" >
+		update bbs_sku
+		<set>
+			<if test="marketPrice!=null">
+				market_price=#{marketPrice},
+			</if>
+			<if test="price!=null">
+				price=#{price},
+			</if>
+			<if test="delive_fee!=null">
+				delive_fee=#{deliveFee},
+			</if>
+			<if test="stock!=null">
+				stock=#{stock},
+			</if>
+			<if test="upperLimit!=null">
+				upper_limit=#{upperLimit},
+			</if>
+		</set>
+		<where>
+			id=#{id};
+		</where>
+	
+	</update>
+	<insert id="insert" >
+		INSERT INTO bbs_sku 
+			(product_id,color_id,size,market_price,price,delive_fee,stock,upper_limit,create_time)
+		VALUES	
+			(#{productId},#{colorId},#{size},#{marketPrice},#{price},#{deliveFee},#{stock},#{upperLimit},#{createTime})
+	</insert>
+	<select id="selectByProductIdAndOrderByPriceAsc" resultType="Sku">
+		SELECT * FROM bbs_sku
+			WHERE product_id =#{productId}
+		ORDER BY price asc
+	</select>
+	
+	<select id="findSuperPojoByProductId" resultType="SuperPojo">
+		SELECT	 *,c.id AS colorId,c.name AS colorName FROM bbs_sku AS s,bbs_color c
+			WHERE product_id =#{id}
+				AND 
+			s.color_id=c.id
+	</select>
+	
+</mapper>

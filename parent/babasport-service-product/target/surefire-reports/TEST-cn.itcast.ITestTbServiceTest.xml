@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.425" errors="1" skipped="0" tests="1" name="cn.itcast.ITestTbServiceTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\develop\Java\jdk1.7.0_45\jre\bin"/>
+    <property name="java.vm.version" value="24.45-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\babasportworkspace\parent"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\babasportworkspace\parent"/>
+    <property name="java.runtime.version" value="1.7.0_45-b18"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\develop\Java\jdk1.7.0_45\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\libin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\babasportworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4507989318407713960.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\develop\Java\jdk1.7.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/develop/Java/jdk1.7.0_45/bin/../jre/bin/client;D:/develop/Java/jdk1.7.0_45/bin/../jre/bin;D:/develop/Java/jdk1.7.0_45/bin/../jre/lib/i386;D:\Oracle\app\oracle\product\10.2.0\server\bin;D:\develop\Java\jdk1.7.0_45\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files\MySQL\MySQL Server 5.5\bin;D:\MySQL\MySQL Server 5.5\bin;D:\Maven\apache-maven-3.3.9\bin;D:\TortoiseSVN\bin;D:\VisualSVN Server\bin;D:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;D:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;D:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;D:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;D:\eclipse-mars-2;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\libin"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="libin"/>
+    <property name="java.class.path" value="D:\mavenbabasport\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="D:\develop\Java\jdk1.7.0_45\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s D:\babasportmaven\settings.xml clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_45"/>
+    <property name="java.ext.dirs" value="D:\develop\Java\jdk1.7.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\develop\Java\jdk1.7.0_45\jre\lib\resources.jar;D:\develop\Java\jdk1.7.0_45\jre\lib\rt.jar;D:\develop\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;D:\develop\Java\jdk1.7.0_45\jre\lib\jsse.jar;D:\develop\Java\jdk1.7.0_45\jre\lib\jce.jar;D:\develop\Java\jdk1.7.0_45\jre\lib\charsets.jar;D:\develop\Java\jdk1.7.0_45\jre\lib\jfr.jar;D:\develop\Java\jdk1.7.0_45\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\mavenbabasport\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.425" classname="cn.itcast.ITestTbServiceTest" name="test">
+    <error message="
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+### The error may involve cn.itcast.core.dao.TestTbDao.insertTestTb-Inline
+### The error occurred while setting parameters
+### SQL: insert into test_tb    (id,name,birthday)   values   (?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist" type="org.springframework.jdbc.BadSqlGrammarException">org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+### The error may involve cn.itcast.core.dao.TestTbDao.insertTestTb-Inline
+### The error occurred while setting parameters
+### SQL: insert into test_tb    (id,name,birthday)   values   (?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:231)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy20.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy26.insertTestTb(Unknown Source)
+	at cn.itcast.core.service.impl.TestTbServiceImpl.saveTestTb(TestTbServiceImpl.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:267)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy28.saveTestTb(Unknown Source)
+	at cn.itcast.ITestTbServiceTest.test(ITestTbServiceTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:73)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3536)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3468)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1957)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2107)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2648)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2086)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1365)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:62)
+	at com.sun.proxy.$Proxy38.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy36.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.github.abel533.mapperhelper.MapperInterceptor.intercept(MapperInterceptor.java:61)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:60)
+	at com.sun.proxy.$Proxy34.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 55 more
+</error>
+    <system-out>2017-09-09 20:11:14,080 [main] [org.springframework.test.context.junit4.SpringJUnit4ClassRunner]-[DEBUG] SpringJUnit4ClassRunner constructor called with [class cn.itcast.ITestTbServiceTest].
+2017-09-09 20:11:14,145 [main] [org.springframework.test.context.BootstrapUtils]-[DEBUG] Instantiating TestContextBootstrapper from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2017-09-09 20:11:14,180 [main] [org.springframework.test.context.support.AbstractDelegatingSmartContextLoader]-[DEBUG] Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@1c8e80d declaringClass = &apos;cn.itcast.ITestTbServiceTest&apos;, classes = &apos;{}&apos;, locations = &apos;{classpath:application-context.xml}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
+2017-09-09 20:11:14,184 [main] [org.springframework.test.context.support.ActiveProfilesUtils]-[DEBUG] Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [cn.itcast.ITestTbServiceTest]
+2017-09-09 20:11:14,189 [main] [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[DEBUG] @TestExecutionListeners is not present for class [cn.itcast.ITestTbServiceTest]: using defaults.
+2017-09-09 20:11:14,195 [main] [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-09-09 20:11:14,224 [main] [org.springframework.test.context.support.DefaultTestContextBootstrapper]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1858aa4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5138a4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5db8ff, org.springframework.test.context.transaction.TransactionalTestExecutionListener@11c9fcc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f472b]
+2017-09-09 20:11:14,226 [main] [org.springframework.test.annotation.ProfileValueUtils]-[DEBUG] Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.itcast.ITestTbServiceTest]
+2017-09-09 20:11:14,228 [main] [org.springframework.test.annotation.ProfileValueUtils]-[DEBUG] Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.itcast.ITestTbServiceTest]
+2017-09-09 20:11:14,229 [main] [org.springframework.test.annotation.ProfileValueUtils]-[DEBUG] Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.itcast.ITestTbServiceTest]
+2017-09-09 20:11:14,230 [main] [org.springframework.test.annotation.ProfileValueUtils]-[DEBUG] Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.itcast.ITestTbServiceTest]
+2017-09-09 20:11:14,233 [main] [org.springframework.test.annotation.ProfileValueUtils]-[DEBUG] Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.itcast.ITestTbServiceTest]
+2017-09-09 20:11:14,234 [main] [org.springframework.test.annotation.ProfileValueUtils]-[DEBUG] Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.itcast.ITestTbServiceTest]
+2017-09-09 20:11:14,236 [main] [org.springframework.test.context.support.DependencyInjectionTestExecutionListener]-[DEBUG] Performing dependency injection for test context [[DefaultTestContext@1aabda3 testClass = ITestTbServiceTest, testInstance = cn.itcast.ITestTbServiceTest@88485f, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@14790be testClass = ITestTbServiceTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]].
+2017-09-09 20:11:14,237 [main] [org.springframework.test.context.support.AbstractDelegatingSmartContextLoader]-[DEBUG] Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@14790be testClass = ITestTbServiceTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]].
+2017-09-09 20:11:14,237 [main] [org.springframework.test.context.support.AbstractGenericContextLoader]-[DEBUG] Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@14790be testClass = ITestTbServiceTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+2017-09-09 20:11:14,342 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2017-09-09 20:11:14,344 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-09-09 20:11:14,344 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-09-09 20:11:14,356 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [application-context.xml]
+2017-09-09 20:11:14,376 [main] [org.springframework.beans.factory.xml.DefaultDocumentLoader]-[DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-09-09 20:11:14,411 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Loading schema mappings from [META-INF/spring.schemas]
+2017-09-09 20:11:14,418 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.10.0.xsd=activemq.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.7.0.xsd=activemq.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.1.0.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://activemq.apache.org/schema/core/activemq-core-5.5.1.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://activemq.apache.org/schema/core=activemq.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.6.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.4.2.xsd=activemq.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.0.0.xsd=activemq.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://code.alibabatech.com/schema/dubbo/dubbo.xsd=META-INF/dubbo.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.5.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.3.2.xsd=activemq.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.4.1.xsd=activemq.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-4.1.xsd=org/springframework/jms/config/spring-jms-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core.xsd=activemq.xsd, http://activemq.org/config/1.0=activemq.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://activemq.org/config/1.0/1.0.xsd=activemq.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://activemq.apache.org/schema/core/activemq-core-5.3.1.xsd=activemq.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.4.0.xsd=activemq.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-4.0.xsd=org/springframework/jms/config/spring-jms-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.9.0.xsd=activemq.xsd, http://activemq.apache.org/schema/core/activemq-core-5.3.0.xsd=activemq.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://activemq.apache.org/schema/core/activemq-core-5.8.0.xsd=activemq.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://activemq.apache.org/schema/core/activemq-core-5.2.0.xsd=activemq.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+2017-09-09 20:11:14,420 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2017-09-09 20:11:14,466 [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]-[DEBUG] Loading bean definitions
+2017-09-09 20:11:14,476 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Looking for matching resources in directory tree [D:\babasportworkspace\parent\babasport-service-product\target\classes\config]
+2017-09-09 20:11:14,476 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Searching directory [D:\babasportworkspace\parent\babasport-service-product\target\classes\config] for files matching pattern [D:/babasportworkspace/parent/babasport-service-product/target/classes/config/*.xml]
+2017-09-09 20:11:14,481 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Resolved location pattern [file:/D:/babasportworkspace/parent/babasport-service-product/target/classes/config/*.xml] to resources [file [D:\babasportworkspace\parent\babasport-service-product\target\classes\config\anonation.xml], file [D:\babasportworkspace\parent\babasport-service-product\target\classes\config\dubbo-provider.xml], file [D:\babasportworkspace\parent\babasport-service-product\target\classes\config\jdbc.xml], file [D:\babasportworkspace\parent\babasport-service-product\target\classes\config\mybatis.xml], file [D:\babasportworkspace\parent\babasport-service-product\target\classes\config\properties.xml], file [D:\babasportworkspace\parent\babasport-service-product\target\classes\config\transaction.xml]]
+2017-09-09 20:11:14,481 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\babasportworkspace\parent\babasport-service-product\target\classes\config\anonation.xml]
+2017-09-09 20:11:14,483 [main] [org.springframework.beans.factory.xml.DefaultDocumentLoader]-[DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-09-09 20:11:14,485 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2017-09-09 20:11:14,505 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/context/spring-context-4.0.xsd] in classpath: org/springframework/context/config/spring-context-4.0.xsd
+2017-09-09 20:11:14,508 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+2017-09-09 20:11:14,512 [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]-[DEBUG] Loading bean definitions
+2017-09-09 20:11:14,519 [main] [org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver]-[DEBUG] Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://code.alibabatech.com/schema/dubbo=com.alibaba.dubbo.config.spring.schema.DubboNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://activemq.apache.org/schema/core=org.apache.xbean.spring.context.v2.XBeanNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2017-09-09 20:11:14,540 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Looking for matching resources in directory tree [D:\babasportworkspace\parent\babasport-service-product\target\test-classes\cn\itcast]
+2017-09-09 20:11:14,540 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Searching directory [D:\babasportworkspace\parent\babasport-service-product\target\test-classes\cn\itcast] for files matching pattern [D:/babasportworkspace/parent/babasport-service-product/target/test-classes/cn/itcast/**/*.class]
+2017-09-09 20:11:14,543 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Looking for matching resources in directory tree [D:\babasportworkspace\parent\babasport-service-product\target\classes\cn\itcast]
+2017-09-09 20:11:14,543 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Searching directory [D:\babasportworkspace\parent\babasport-service-product\target\classes\cn\itcast] for files matching pattern [D:/babasportworkspace/parent/babasport-service-product/target/classes/cn/itcast/**/*.class]
+2017-09-09 20:11:14,544 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Searching directory [D:\babasportworkspace\parent\babasport-service-product\target\classes\cn\itcast\core] for files matching pattern [D:/babasportworkspace/parent/babasport-service-product/target/classes/cn/itcast/**/*.class]
+2017-09-09 20:11:14,545 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Searching directory [D:\babasportworkspace\parent\babasport-service-product\target\classes\cn\itcast\core\service] for files matching pattern [D:/babasportworkspace/parent/babasport-service-product/target/classes/cn/itcast/**/*.class]
+2017-09-09 20:11:14,546 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Searching directory [D:\babasportworkspace\parent\babasport-service-product\target\classes\cn\itcast\core\service\impl] for files matching pattern [D:/babasportworkspace/parent/babasport-service-product/target/classes/cn/itcast/**/*.class]
+2017-09-09 20:11:14,548 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Looking for matching resources in jar file [file:/D:/babasportworkspace/parent/babasport-interface/target/babasport-interface-0.0.1-SNAPSHOT.jar]
+2017-09-09 20:11:14,550 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Looking for matching resources in jar file [file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar]
+2017-09-09 20:11:14,552 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Looking for matching resources in jar file [file:/D:/babasportworkspace/parent/babasport-common/target/babasport-common-0.0.1-SNAPSHOT.jar]
+2017-09-09 20:11:14,553 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Looking for matching resources in jar file [file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar]
+2017-09-09 20:11:14,554 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Resolved location pattern [classpath*:cn/itcast/**/*.class] to resources [file [D:\babasportworkspace\parent\babasport-service-product\target\test-classes\cn\itcast\ITestTbServiceTest.class], file [D:\babasportworkspace\parent\babasport-service-product\target\test-classes\cn\itcast\TestTbTest.class], file [D:\babasportworkspace\parent\babasport-service-product\target\classes\cn\itcast\core\service\impl\BrandServiceImpl.class], file [D:\babasportworkspace\parent\babasport-service-product\target\classes\cn\itcast\core\service\impl\ColorServiceImpl.class], file [D:\babasportworkspace\parent\babasport-service-product\target\classes\cn\itcast\core\service\impl\ProductServiceImpl.class], file [D:\babasportworkspace\parent\babasport-service-product\target\classes\cn\itcast\core\service\impl\TestTbServiceImpl.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-interface/target/babasport-interface-0.0.1-SNAPSHOT.jar!/cn/itcast/core/service/BrandService.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-interface/target/babasport-interface-0.0.1-SNAPSHOT.jar!/cn/itcast/core/service/ColorService.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-interface/target/babasport-interface-0.0.1-SNAPSHOT.jar!/cn/itcast/core/service/ITestTbService.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-interface/target/babasport-interface-0.0.1-SNAPSHOT.jar!/cn/itcast/core/service/ProductService.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar!/cn/itcast/core/bean/Brand.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar!/cn/itcast/core/bean/Buyer.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar!/cn/itcast/core/bean/Color.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar!/cn/itcast/core/bean/Detail.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar!/cn/itcast/core/bean/Order.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar!/cn/itcast/core/bean/Product.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar!/cn/itcast/core/bean/Sku.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar!/cn/itcast/core/bean/TestTb.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-common/target/babasport-common-0.0.1-SNAPSHOT.jar!/cn/itcast/core/tools/Constants.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-common/target/babasport-common-0.0.1-SNAPSHOT.jar!/cn/itcast/core/tools/Encoding.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-common/target/babasport-common-0.0.1-SNAPSHOT.jar!/cn/itcast/core/tools/FastDFSTool.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-common/target/babasport-common-0.0.1-SNAPSHOT.jar!/cn/itcast/core/tools/PageHelper$Page.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-common/target/babasport-common-0.0.1-SNAPSHOT.jar!/cn/itcast/core/tools/PageHelper.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar!/cn/itcast/core/dao/BrandDao.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar!/cn/itcast/core/dao/ColorDao.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar!/cn/itcast/core/dao/ProductDao.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar!/cn/itcast/core/dao/TestTbDao.class]]
+2017-09-09 20:11:14,583 [main] [org.springframework.context.annotation.ClassPathBeanDefinitionScanner]-[DEBUG] Identified candidate component class: file [D:\babasportworkspace\parent\babasport-service-product\target\classes\cn\itcast\core\service\impl\BrandServiceImpl.class]
+2017-09-09 20:11:14,585 [main] [org.springframework.context.annotation.ClassPathBeanDefinitionScanner]-[DEBUG] Identified candidate component class: file [D:\babasportworkspace\parent\babasport-service-product\target\classes\cn\itcast\core\service\impl\ColorServiceImpl.class]
+2017-09-09 20:11:14,587 [main] [org.springframework.context.annotation.ClassPathBeanDefinitionScanner]-[DEBUG] Identified candidate component class: file [D:\babasportworkspace\parent\babasport-service-product\target\classes\cn\itcast\core\service\impl\ProductServiceImpl.class]
+2017-09-09 20:11:14,590 [main] [org.springframework.context.annotation.ClassPathBeanDefinitionScanner]-[DEBUG] Identified candidate component class: file [D:\babasportworkspace\parent\babasport-service-product\target\classes\cn\itcast\core\service\impl\TestTbServiceImpl.class]
+2017-09-09 20:11:14,631 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\babasportworkspace\parent\babasport-service-product\target\classes\config\dubbo-provider.xml]
+2017-09-09 20:11:14,634 [main] [org.springframework.beans.factory.xml.DefaultDocumentLoader]-[DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-09-09 20:11:14,637 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2017-09-09 20:11:14,659 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://code.alibabatech.com/schema/dubbo/dubbo.xsd] in classpath: META-INF/dubbo.xsd
+2017-09-09 20:11:14,680 [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]-[DEBUG] Loading bean definitions
+2017-09-09 20:11:14,690 [main] [com.alibaba.dubbo.common.logger.LoggerFactory]-[INFO] using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2017-09-09 20:11:14,735 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\babasportworkspace\parent\babasport-service-product\target\classes\config\jdbc.xml]
+2017-09-09 20:11:14,738 [main] [org.springframework.beans.factory.xml.DefaultDocumentLoader]-[DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-09-09 20:11:14,740 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2017-09-09 20:11:14,753 [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]-[DEBUG] Loading bean definitions
+2017-09-09 20:11:14,757 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\babasportworkspace\parent\babasport-service-product\target\classes\config\mybatis.xml]
+2017-09-09 20:11:14,760 [main] [org.springframework.beans.factory.xml.DefaultDocumentLoader]-[DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-09-09 20:11:14,762 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2017-09-09 20:11:14,771 [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]-[DEBUG] Loading bean definitions
+2017-09-09 20:11:14,773 [main] [org.springframework.beans.factory.xml.BeanDefinitionParserDelegate]-[DEBUG] Neither XML &apos;id&apos; nor &apos;name&apos; specified - using generated bean name [org.mybatis.spring.SqlSessionFactoryBean#0]
+2017-09-09 20:11:14,774 [main] [org.springframework.beans.factory.xml.BeanDefinitionParserDelegate]-[DEBUG] Neither XML &apos;id&apos; nor &apos;name&apos; specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+2017-09-09 20:11:14,774 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\babasportworkspace\parent\babasport-service-product\target\classes\config\properties.xml]
+2017-09-09 20:11:14,778 [main] [org.springframework.beans.factory.xml.DefaultDocumentLoader]-[DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-09-09 20:11:14,781 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2017-09-09 20:11:14,790 [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]-[DEBUG] Loading bean definitions
+2017-09-09 20:11:14,792 [main] [org.springframework.beans.factory.xml.BeanDefinitionParserDelegate]-[DEBUG] Neither XML &apos;id&apos; nor &apos;name&apos; specified - using generated bean name [org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer#0]
+2017-09-09 20:11:14,792 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from file [D:\babasportworkspace\parent\babasport-service-product\target\classes\config\transaction.xml]
+2017-09-09 20:11:14,795 [main] [org.springframework.beans.factory.xml.DefaultDocumentLoader]-[DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-09-09 20:11:14,797 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2017-09-09 20:11:14,809 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/tx/spring-tx-4.0.xsd] in classpath: org/springframework/transaction/config/spring-tx-4.0.xsd
+2017-09-09 20:11:14,811 [main] [org.springframework.beans.factory.xml.PluggableSchemaResolver]-[DEBUG] Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+2017-09-09 20:11:14,814 [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]-[DEBUG] Loading bean definitions
+2017-09-09 20:11:14,835 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[DEBUG] Loaded 23 bean definitions from location pattern [file:/D:/babasportworkspace/parent/babasport-service-product/target/classes/config/*.xml]
+2017-09-09 20:11:14,835 [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]-[DEBUG] Imported 23 bean definitions from relative location [config/*.xml]
+2017-09-09 20:11:14,836 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[DEBUG] Loaded 23 bean definitions from location pattern [classpath:application-context.xml]
+2017-09-09 20:11:14,839 [main] [org.springframework.context.support.GenericApplicationContext]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@10a59d2: startup date [Sat Sep 09 20:11:14 CST 2017]; root of context hierarchy
+2017-09-09 20:11:14,840 [main] [org.springframework.context.support.GenericApplicationContext]-[DEBUG] Bean factory for org.springframework.context.support.GenericApplicationContext@10a59d2: org.springframework.beans.factory.support.DefaultListableBeanFactory@1e27131: defining beans [brandService,colorService,productService,testTbService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,babasport-service-product,com.alibaba.dubbo.config.RegistryConfig,dubbo,cn.itcast.core.service.BrandService,cn.itcast.core.service.ColorService,cn.itcast.core.service.ProductService,dataSource,org.mybatis.spring.SqlSessionFactoryBean#0,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer#0,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor]; root of factory hierarchy
+2017-09-09 20:11:14,887 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+2017-09-09 20:11:14,887 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+2017-09-09 20:11:14,909 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos; to allow for resolving potential circular references
+2017-09-09 20:11:14,911 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+2017-09-09 20:11:14,990 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
+2017-09-09 20:11:14,990 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
+2017-09-09 20:11:14,991 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,025 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
+2017-09-09 20:11:15,025 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
+2017-09-09 20:11:15,027 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2017-09-09 20:11:15,027 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-09-09 20:11:15,028 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-09-09 20:11:15,030 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Looking for matching resources in jar file [file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar]
+2017-09-09 20:11:15,030 [main] [org.springframework.core.io.support.PathMatchingResourcePatternResolver]-[DEBUG] Resolved location pattern [classpath*:cn/itcast/core/dao/**/*.class] to resources [URL [jar:file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar!/cn/itcast/core/dao/BrandDao.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar!/cn/itcast/core/dao/ColorDao.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar!/cn/itcast/core/dao/ProductDao.class], URL [jar:file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar!/cn/itcast/core/dao/TestTbDao.class]]
+2017-09-09 20:11:15,031 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: URL [jar:file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar!/cn/itcast/core/dao/BrandDao.class]
+2017-09-09 20:11:15,032 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: URL [jar:file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar!/cn/itcast/core/dao/ColorDao.class]
+2017-09-09 20:11:15,033 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: URL [jar:file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar!/cn/itcast/core/dao/ProductDao.class]
+2017-09-09 20:11:15,033 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Identified candidate component class: URL [jar:file:/D:/babasportworkspace/parent/babasport-dao/target/babasport-dao-0.0.1-SNAPSHOT.jar!/cn/itcast/core/dao/TestTbDao.class]
+2017-09-09 20:11:15,034 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name &apos;brandDao&apos; and &apos;cn.itcast.core.dao.BrandDao&apos; mapperInterface
+2017-09-09 20:11:15,035 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name &apos;brandDao&apos;.
+2017-09-09 20:11:15,035 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name &apos;colorDao&apos; and &apos;cn.itcast.core.dao.ColorDao&apos; mapperInterface
+2017-09-09 20:11:15,035 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name &apos;colorDao&apos;.
+2017-09-09 20:11:15,035 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name &apos;productDao&apos; and &apos;cn.itcast.core.dao.ProductDao&apos; mapperInterface
+2017-09-09 20:11:15,035 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name &apos;productDao&apos;.
+2017-09-09 20:11:15,035 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Creating MapperFactoryBean with name &apos;testTbDao&apos; and &apos;cn.itcast.core.dao.TestTbDao&apos; mapperInterface
+2017-09-09 20:11:15,036 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]-[DEBUG] Enabling autowire by type for MapperFactoryBean with name &apos;testTbDao&apos;.
+2017-09-09 20:11:15,039 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer#0&apos;
+2017-09-09 20:11:15,039 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer#0&apos;
+2017-09-09 20:11:15,041 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer#0&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,052 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name &apos;org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer#0&apos;
+2017-09-09 20:11:15,054 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer#0&apos;
+2017-09-09 20:11:15,055 [main] [org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer]-[INFO] Loading properties file from class path resource [jdbc.properties]
+2017-09-09 20:11:15,064 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+2017-09-09 20:11:15,064 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+2017-09-09 20:11:15,065 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,065 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+2017-09-09 20:11:15,065 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+2017-09-09 20:11:15,065 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+2017-09-09 20:11:15,066 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,066 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+2017-09-09 20:11:15,066 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+2017-09-09 20:11:15,066 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+2017-09-09 20:11:15,072 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,072 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+2017-09-09 20:11:15,073 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+2017-09-09 20:11:15,073 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+2017-09-09 20:11:15,073 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,073 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+2017-09-09 20:11:15,073 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;
+2017-09-09 20:11:15,074 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;
+2017-09-09 20:11:15,074 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,074 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;
+2017-09-09 20:11:15,074 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+2017-09-09 20:11:15,074 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+2017-09-09 20:11:15,084 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,134 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+2017-09-09 20:11:15,138 [main] [org.springframework.context.support.GenericApplicationContext]-[DEBUG] Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@1113622]
+2017-09-09 20:11:15,142 [main] [org.springframework.context.support.GenericApplicationContext]-[DEBUG] Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@556e82]
+2017-09-09 20:11:15,146 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1e27131: defining beans [brandService,colorService,productService,testTbService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,babasport-service-product,com.alibaba.dubbo.config.RegistryConfig,dubbo,cn.itcast.core.service.BrandService,cn.itcast.core.service.ColorService,cn.itcast.core.service.ProductService,dataSource,org.mybatis.spring.SqlSessionFactoryBean#0,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer#0,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,brandDao,colorDao,productDao,testTbDao]; root of factory hierarchy
+2017-09-09 20:11:15,146 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;brandService&apos;
+2017-09-09 20:11:15,146 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;brandService&apos;
+2017-09-09 20:11:15,154 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [cn.itcast.core.service.impl.BrandServiceImpl]: AutowiredFieldElement for private cn.itcast.core.dao.BrandDao cn.itcast.core.service.impl.BrandServiceImpl.brandDao
+2017-09-09 20:11:15,154 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;brandService&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,155 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean &apos;brandService&apos;: AutowiredFieldElement for private cn.itcast.core.dao.BrandDao cn.itcast.core.service.impl.BrandServiceImpl.brandDao
+2017-09-09 20:11:15,177 [main] [org.apache.ibatis.logging.LogFactory]-[DEBUG] Logging initialized using &apos;class org.apache.ibatis.logging.slf4j.Slf4jImpl&apos; adapter.
+2017-09-09 20:11:15,180 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;brandDao&apos;
+2017-09-09 20:11:15,180 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;brandDao&apos;
+2017-09-09 20:11:15,180 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;brandDao&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,187 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,187 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,188 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,197 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+2017-09-09 20:11:15,197 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+2017-09-09 20:11:15,199 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,203 [main] [org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper]-[DEBUG] Skipping currently created advisor &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,205 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+2017-09-09 20:11:15,206 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,208 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean &apos;brandDao&apos; that is not fully initialized yet - a consequence of a circular reference
+2017-09-09 20:11:15,209 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;colorDao&apos;
+2017-09-09 20:11:15,209 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;colorDao&apos;
+2017-09-09 20:11:15,209 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;colorDao&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,210 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,210 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean &apos;colorDao&apos; that is not fully initialized yet - a consequence of a circular reference
+2017-09-09 20:11:15,211 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;productDao&apos;
+2017-09-09 20:11:15,211 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;productDao&apos;
+2017-09-09 20:11:15,211 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;productDao&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,212 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,212 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean &apos;productDao&apos; that is not fully initialized yet - a consequence of a circular reference
+2017-09-09 20:11:15,212 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;testTbDao&apos;
+2017-09-09 20:11:15,212 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;testTbDao&apos;
+2017-09-09 20:11:15,213 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;testTbDao&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,213 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,213 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean &apos;testTbDao&apos; that is not fully initialized yet - a consequence of a circular reference
+2017-09-09 20:11:15,214 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos;
+2017-09-09 20:11:15,214 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos;
+2017-09-09 20:11:15,215 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,222 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;dataSource&apos;
+2017-09-09 20:11:15,222 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;dataSource&apos;
+2017-09-09 20:11:15,260 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;dataSource&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,292 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,299 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;dataSource&apos;
+2017-09-09 20:11:15,300 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos;
+2017-09-09 20:11:15,385 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Class not found: org.jboss.vfs.VFS
+2017-09-09 20:11:15,385 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] JBoss 6 VFS API is not available in this environment.
+2017-09-09 20:11:15,386 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Class not found: org.jboss.vfs.VirtualFile
+2017-09-09 20:11:15,387 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2017-09-09 20:11:15,387 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2017-09-09 20:11:15,388 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Find JAR URL: jar:file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar!/cn/itcast/core/bean
+2017-09-09 20:11:15,388 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Inner URL: file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar!/cn/itcast/core/bean
+2017-09-09 20:11:15,388 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Extracted JAR URL: file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar
+2017-09-09 20:11:15,388 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Found JAR: file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar
+2017-09-09 20:11:15,389 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Listing jar:file:/D:/babasportworkspace/parent/babasport-pojo/target/babasport-pojo-0.0.1-SNAPSHOT.jar!/cn/itcast/core/bean
+2017-09-09 20:11:15,389 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Found resource: /cn/itcast/core/bean/Brand.class
+2017-09-09 20:11:15,389 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Found resource: /cn/itcast/core/bean/Buyer.class
+2017-09-09 20:11:15,390 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Found resource: /cn/itcast/core/bean/Color.class
+2017-09-09 20:11:15,390 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Found resource: /cn/itcast/core/bean/Detail.class
+2017-09-09 20:11:15,390 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Found resource: /cn/itcast/core/bean/Order.class
+2017-09-09 20:11:15,390 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Found resource: /cn/itcast/core/bean/Product.class
+2017-09-09 20:11:15,390 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Found resource: /cn/itcast/core/bean/Sku.class
+2017-09-09 20:11:15,390 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Found resource: /cn/itcast/core/bean/TestTb.class
+2017-09-09 20:11:15,391 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Checking to see if class cn.itcast.core.bean.Brand matches criteria [is assignable to Object]
+2017-09-09 20:11:15,391 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Checking to see if class cn.itcast.core.bean.Buyer matches criteria [is assignable to Object]
+2017-09-09 20:11:15,392 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Checking to see if class cn.itcast.core.bean.Color matches criteria [is assignable to Object]
+2017-09-09 20:11:15,392 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Checking to see if class cn.itcast.core.bean.Detail matches criteria [is assignable to Object]
+2017-09-09 20:11:15,393 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Checking to see if class cn.itcast.core.bean.Order matches criteria [is assignable to Object]
+2017-09-09 20:11:15,394 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Checking to see if class cn.itcast.core.bean.Product matches criteria [is assignable to Object]
+2017-09-09 20:11:15,394 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Checking to see if class cn.itcast.core.bean.Sku matches criteria [is assignable to Object]
+2017-09-09 20:11:15,395 [main] [org.apache.ibatis.io.ResolverUtil]-[DEBUG] Checking to see if class cn.itcast.core.bean.TestTb matches criteria [is assignable to Object]
+2017-09-09 20:11:15,440 [main] [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Parsed configuration file: &apos;class path resource [mybatis-config.xml]&apos;
+2017-09-09 20:11:15,441 [main] [org.mybatis.spring.SqlSessionFactoryBean]-[DEBUG] Property &apos;mapperLocations&apos; was not specified or no matching resources found
+2017-09-09 20:11:15,441 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,442 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos;
+2017-09-09 20:11:15,442 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,444 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name &apos;testTbDao&apos; via property &apos;sqlSessionFactory&apos; to bean named &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos;
+2017-09-09 20:11:15,453 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name &apos;testTbDao&apos;
+2017-09-09 20:11:15,525 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;testTbDao&apos;
+2017-09-09 20:11:15,525 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos;
+2017-09-09 20:11:15,525 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name &apos;productDao&apos; via property &apos;sqlSessionFactory&apos; to bean named &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos;
+2017-09-09 20:11:15,526 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name &apos;productDao&apos;
+2017-09-09 20:11:15,536 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;productDao&apos;
+2017-09-09 20:11:15,536 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos;
+2017-09-09 20:11:15,536 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name &apos;colorDao&apos; via property &apos;sqlSessionFactory&apos; to bean named &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos;
+2017-09-09 20:11:15,537 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name &apos;colorDao&apos;
+2017-09-09 20:11:15,541 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;colorDao&apos;
+2017-09-09 20:11:15,541 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos;
+2017-09-09 20:11:15,541 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Autowiring by type from bean name &apos;brandDao&apos; via property &apos;sqlSessionFactory&apos; to bean named &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos;
+2017-09-09 20:11:15,542 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name &apos;brandDao&apos;
+2017-09-09 20:11:15,576 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;brandDao&apos;
+2017-09-09 20:11:15,577 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;brandDao&apos;
+2017-09-09 20:11:15,580 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,582 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name &apos;brandService&apos; to bean named &apos;brandDao&apos;
+2017-09-09 20:11:15,582 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,583 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;brandService&apos;
+2017-09-09 20:11:15,583 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;colorService&apos;
+2017-09-09 20:11:15,583 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;colorService&apos;
+2017-09-09 20:11:15,584 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [cn.itcast.core.service.impl.ColorServiceImpl]: AutowiredFieldElement for private cn.itcast.core.dao.ColorDao cn.itcast.core.service.impl.ColorServiceImpl.colorDao
+2017-09-09 20:11:15,584 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;colorService&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,587 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean &apos;colorService&apos;: AutowiredFieldElement for private cn.itcast.core.dao.ColorDao cn.itcast.core.service.impl.ColorServiceImpl.colorDao
+2017-09-09 20:11:15,588 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;colorDao&apos;
+2017-09-09 20:11:15,591 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,593 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name &apos;colorService&apos; to bean named &apos;colorDao&apos;
+2017-09-09 20:11:15,593 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,594 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;colorService&apos;
+2017-09-09 20:11:15,594 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;productService&apos;
+2017-09-09 20:11:15,594 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;productService&apos;
+2017-09-09 20:11:15,595 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [cn.itcast.core.service.impl.ProductServiceImpl]: AutowiredFieldElement for private cn.itcast.core.dao.ProductDao cn.itcast.core.service.impl.ProductServiceImpl.productDao
+2017-09-09 20:11:15,595 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;productService&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,597 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean &apos;productService&apos;: AutowiredFieldElement for private cn.itcast.core.dao.ProductDao cn.itcast.core.service.impl.ProductServiceImpl.productDao
+2017-09-09 20:11:15,597 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;productDao&apos;
+2017-09-09 20:11:15,599 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,602 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name &apos;productService&apos; to bean named &apos;productDao&apos;
+2017-09-09 20:11:15,603 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,603 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;productService&apos;
+2017-09-09 20:11:15,603 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;testTbService&apos;
+2017-09-09 20:11:15,603 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;testTbService&apos;
+2017-09-09 20:11:15,604 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [cn.itcast.core.service.impl.TestTbServiceImpl]: AutowiredFieldElement for private cn.itcast.core.dao.TestTbDao cn.itcast.core.service.impl.TestTbServiceImpl.testTbDao
+2017-09-09 20:11:15,604 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;testTbService&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,608 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean &apos;testTbService&apos;: AutowiredFieldElement for private cn.itcast.core.dao.TestTbDao cn.itcast.core.service.impl.TestTbServiceImpl.testTbDao
+2017-09-09 20:11:15,609 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;testTbDao&apos;
+2017-09-09 20:11:15,610 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,610 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name &apos;testTbService&apos; to bean named &apos;testTbDao&apos;
+2017-09-09 20:11:15,610 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,614 [main] [org.springframework.transaction.annotation.AnnotationTransactionAttributeSource]-[DEBUG] Adding transactional method &apos;TestTbServiceImpl.saveTestTb&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+2017-09-09 20:11:15,619 [main] [org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator]-[DEBUG] Creating implicit proxy for bean &apos;testTbService&apos; with 0 common interceptors and 1 specific interceptors
+2017-09-09 20:11:15,620 [main] [org.springframework.aop.framework.JdkDynamicAopProxy]-[DEBUG] Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [cn.itcast.core.service.impl.TestTbServiceImpl@1a7261]
+2017-09-09 20:11:15,624 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;testTbService&apos;
+2017-09-09 20:11:15,624 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+2017-09-09 20:11:15,624 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+2017-09-09 20:11:15,624 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+2017-09-09 20:11:15,624 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+2017-09-09 20:11:15,624 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;babasport-service-product&apos;
+2017-09-09 20:11:15,625 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;babasport-service-product&apos;
+2017-09-09 20:11:15,628 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;babasport-service-product&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,640 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,640 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;babasport-service-product&apos;
+2017-09-09 20:11:15,640 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;com.alibaba.dubbo.config.RegistryConfig&apos;
+2017-09-09 20:11:15,641 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;com.alibaba.dubbo.config.RegistryConfig&apos;
+2017-09-09 20:11:15,643 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;com.alibaba.dubbo.config.RegistryConfig&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,649 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,650 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;com.alibaba.dubbo.config.RegistryConfig&apos;
+2017-09-09 20:11:15,650 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;dubbo&apos;
+2017-09-09 20:11:15,650 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;dubbo&apos;
+2017-09-09 20:11:15,654 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;dubbo&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,672 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,674 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;dubbo&apos;
+2017-09-09 20:11:15,674 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;cn.itcast.core.service.BrandService&apos;
+2017-09-09 20:11:15,674 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;cn.itcast.core.service.BrandService&apos;
+2017-09-09 20:11:15,709 [main] [com.alibaba.dubbo.common.extension.ExtensionLoader]-[DEBUG]  [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Protocol$Adpative implements com.alibaba.dubbo.rpc.Protocol {
+public com.alibaba.dubbo.rpc.Invoker refer(java.lang.Class arg0, com.alibaba.dubbo.common.URL arg1) throws java.lang.Class {
+if (arg1 == null) throw new IllegalArgumentException(&quot;url == null&quot;);
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = ( url.getProtocol() == null ? &quot;dubbo&quot; : url.getProtocol() );
+if(extName == null) throw new IllegalStateException(&quot;Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(&quot; + url.toString() + &quot;) use keys([protocol])&quot;);
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.refer(arg0, arg1);
+}
+public com.alibaba.dubbo.rpc.Exporter export(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException(&quot;com.alibaba.dubbo.rpc.Invoker argument == null&quot;);
+if (arg0.getUrl() == null) throw new IllegalArgumentException(&quot;com.alibaba.dubbo.rpc.Invoker argument getUrl() == null&quot;);com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = ( url.getProtocol() == null ? &quot;dubbo&quot; : url.getProtocol() );
+if(extName == null) throw new IllegalStateException(&quot;Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(&quot; + url.toString() + &quot;) use keys([protocol])&quot;);
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.export(arg0);
+}
+public void destroy() {throw new UnsupportedOperationException(&quot;method public abstract void com.alibaba.dubbo.rpc.Protocol.destroy() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!&quot;);
+}
+public int getDefaultPort() {throw new UnsupportedOperationException(&quot;method public abstract int com.alibaba.dubbo.rpc.Protocol.getDefaultPort() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!&quot;);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:15,833 [main] [com.alibaba.dubbo.common.extension.ExtensionLoader]-[DEBUG]  [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ProxyFactory$Adpative implements com.alibaba.dubbo.rpc.ProxyFactory {
+public java.lang.Object getProxy(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException(&quot;com.alibaba.dubbo.rpc.Invoker argument == null&quot;);
+if (arg0.getUrl() == null) throw new IllegalArgumentException(&quot;com.alibaba.dubbo.rpc.Invoker argument getUrl() == null&quot;);com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = url.getParameter(&quot;proxy&quot;, &quot;javassist&quot;);
+if(extName == null) throw new IllegalStateException(&quot;Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(&quot; + url.toString() + &quot;) use keys([proxy])&quot;);
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getProxy(arg0);
+}
+public com.alibaba.dubbo.rpc.Invoker getInvoker(java.lang.Object arg0, java.lang.Class arg1, com.alibaba.dubbo.common.URL arg2) throws java.lang.Object {
+if (arg2 == null) throw new IllegalArgumentException(&quot;url == null&quot;);
+com.alibaba.dubbo.common.URL url = arg2;
+String extName = url.getParameter(&quot;proxy&quot;, &quot;javassist&quot;);
+if(extName == null) throw new IllegalStateException(&quot;Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(&quot; + url.toString() + &quot;) use keys([proxy])&quot;);
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getInvoker(arg0, arg1, arg2);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:15,852 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;cn.itcast.core.service.BrandService&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,873 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;brandService&apos;
+2017-09-09 20:11:15,876 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name &apos;cn.itcast.core.service.BrandService&apos;
+2017-09-09 20:11:15,877 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;babasport-service-product&apos;
+2017-09-09 20:11:15,877 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;com.alibaba.dubbo.config.RegistryConfig&apos;
+2017-09-09 20:11:15,878 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;dubbo&apos;
+2017-09-09 20:11:15,878 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,881 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;cn.itcast.core.service.BrandService&apos;
+2017-09-09 20:11:15,881 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;cn.itcast.core.service.ColorService&apos;
+2017-09-09 20:11:15,881 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;cn.itcast.core.service.ColorService&apos;
+2017-09-09 20:11:15,885 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;cn.itcast.core.service.ColorService&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,885 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;colorService&apos;
+2017-09-09 20:11:15,886 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name &apos;cn.itcast.core.service.ColorService&apos;
+2017-09-09 20:11:15,886 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;babasport-service-product&apos;
+2017-09-09 20:11:15,887 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;com.alibaba.dubbo.config.RegistryConfig&apos;
+2017-09-09 20:11:15,888 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;dubbo&apos;
+2017-09-09 20:11:15,888 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,888 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;cn.itcast.core.service.ColorService&apos;
+2017-09-09 20:11:15,888 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;cn.itcast.core.service.ProductService&apos;
+2017-09-09 20:11:15,888 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;cn.itcast.core.service.ProductService&apos;
+2017-09-09 20:11:15,891 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;cn.itcast.core.service.ProductService&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,891 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;productService&apos;
+2017-09-09 20:11:15,892 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name &apos;cn.itcast.core.service.ProductService&apos;
+2017-09-09 20:11:15,893 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;babasport-service-product&apos;
+2017-09-09 20:11:15,894 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;com.alibaba.dubbo.config.RegistryConfig&apos;
+2017-09-09 20:11:15,894 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;dubbo&apos;
+2017-09-09 20:11:15,894 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,895 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;cn.itcast.core.service.ProductService&apos;
+2017-09-09 20:11:15,895 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;dataSource&apos;
+2017-09-09 20:11:15,895 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos;
+2017-09-09 20:11:15,896 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
+2017-09-09 20:11:15,896 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer#0&apos;
+2017-09-09 20:11:15,896 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;transactionManager&apos;
+2017-09-09 20:11:15,896 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;transactionManager&apos;
+2017-09-09 20:11:15,905 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;transactionManager&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,908 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;dataSource&apos;
+2017-09-09 20:11:15,909 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name &apos;transactionManager&apos;
+2017-09-09 20:11:15,909 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,909 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;transactionManager&apos;
+2017-09-09 20:11:15,910 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+2017-09-09 20:11:15,910 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+2017-09-09 20:11:15,910 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+2017-09-09 20:11:15,910 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+2017-09-09 20:11:15,911 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos; to allow for resolving potential circular references
+2017-09-09 20:11:15,915 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+2017-09-09 20:11:15,916 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+2017-09-09 20:11:15,916 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+2017-09-09 20:11:15,916 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:15,916 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+2017-09-09 20:11:15,916 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;
+2017-09-09 20:11:15,916 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;brandDao&apos;
+2017-09-09 20:11:15,916 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;colorDao&apos;
+2017-09-09 20:11:15,916 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;productDao&apos;
+2017-09-09 20:11:15,916 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;testTbDao&apos;
+2017-09-09 20:11:15,918 [main] [org.springframework.context.support.GenericApplicationContext]-[DEBUG] Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@1002d1f]
+2017-09-09 20:11:15,919 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;lifecycleProcessor&apos;
+2017-09-09 20:11:15,921 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;cn.itcast.core.service.BrandService&apos;
+2017-09-09 20:11:15,921 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;cn.itcast.core.service.ColorService&apos;
+2017-09-09 20:11:15,921 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;cn.itcast.core.service.ProductService&apos;
+2017-09-09 20:11:15,921 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.mybatis.spring.SqlSessionFactoryBean#0&apos;
+2017-09-09 20:11:15,921 [main] [com.alibaba.dubbo.config.AbstractConfig]-[INFO]  [DUBBO] The service ready on spring started. service: cn.itcast.core.service.BrandService, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,030 [main] [com.alibaba.dubbo.common.extension.ExtensionLoader]-[DEBUG]  [DUBBO] package com.alibaba.dubbo.validation;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Validation$Adpative implements com.alibaba.dubbo.validation.Validation {
+public com.alibaba.dubbo.validation.Validator getValidator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException(&quot;url == null&quot;);
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter(&quot;validation&quot;, &quot;jvalidation&quot;);
+if(extName == null) throw new IllegalStateException(&quot;Fail to get extension(com.alibaba.dubbo.validation.Validation) name from url(&quot; + url.toString() + &quot;) use keys([validation])&quot;);
+com.alibaba.dubbo.validation.Validation extension = (com.alibaba.dubbo.validation.Validation)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.validation.Validation.class).getExtension(extName);
+return extension.getValidator(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,053 [main] [com.alibaba.dubbo.common.extension.ExtensionLoader]-[DEBUG]  [DUBBO] package com.alibaba.dubbo.monitor;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class MonitorFactory$Adpative implements com.alibaba.dubbo.monitor.MonitorFactory {
+public com.alibaba.dubbo.monitor.Monitor getMonitor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException(&quot;url == null&quot;);
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? &quot;dubbo&quot; : url.getProtocol() );
+if(extName == null) throw new IllegalStateException(&quot;Fail to get extension(com.alibaba.dubbo.monitor.MonitorFactory) name from url(&quot; + url.toString() + &quot;) use keys([protocol])&quot;);
+com.alibaba.dubbo.monitor.MonitorFactory extension = (com.alibaba.dubbo.monitor.MonitorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.monitor.MonitorFactory.class).getExtension(extName);
+return extension.getMonitor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,066 [main] [com.alibaba.dubbo.common.extension.ExtensionLoader]-[DEBUG]  [DUBBO] package com.alibaba.dubbo.cache;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class CacheFactory$Adpative implements com.alibaba.dubbo.cache.CacheFactory {
+public com.alibaba.dubbo.cache.Cache getCache(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException(&quot;url == null&quot;);
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter(&quot;cache&quot;, &quot;lru&quot;);
+if(extName == null) throw new IllegalStateException(&quot;Fail to get extension(com.alibaba.dubbo.cache.CacheFactory) name from url(&quot; + url.toString() + &quot;) use keys([cache])&quot;);
+com.alibaba.dubbo.cache.CacheFactory extension = (com.alibaba.dubbo.cache.CacheFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.cache.CacheFactory.class).getExtension(extName);
+return extension.getCache(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,080 [main] [com.alibaba.dubbo.config.AbstractConfig]-[INFO]  [DUBBO] Export dubbo service cn.itcast.core.service.BrandService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,081 [main] [com.alibaba.dubbo.config.AbstractConfig]-[INFO]  [DUBBO] Export dubbo service cn.itcast.core.service.BrandService to url dubbo://10.254.5.225:20880/cn.itcast.core.service.BrandService?anyhost=true&amp;application=babasport-service-product&amp;dubbo=2.5.3&amp;interface=cn.itcast.core.service.BrandService&amp;methods=deletesByIds,deleteById,queryById,findAll,brandEditSave,queryByNameAndIsDisplay&amp;pid=7072&amp;revision=0.0.1-SNAPSHOT&amp;side=provider&amp;timestamp=1504959075957, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,098 [main] [com.alibaba.dubbo.common.extension.ExtensionLoader]-[DEBUG]  [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Transporter$Adpative implements com.alibaba.dubbo.remoting.Transporter {
+public com.alibaba.dubbo.remoting.Server bind(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException(&quot;url == null&quot;);
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter(&quot;server&quot;, url.getParameter(&quot;transporter&quot;, &quot;netty&quot;));
+if(extName == null) throw new IllegalStateException(&quot;Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(&quot; + url.toString() + &quot;) use keys([server, transporter])&quot;);
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.bind(arg0, arg1);
+}
+public com.alibaba.dubbo.remoting.Client connect(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException(&quot;url == null&quot;);
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter(&quot;client&quot;, url.getParameter(&quot;transporter&quot;, &quot;netty&quot;));
+if(extName == null) throw new IllegalStateException(&quot;Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(&quot; + url.toString() + &quot;) use keys([client, transporter])&quot;);
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.connect(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,129 [main] [com.alibaba.dubbo.common.extension.ExtensionLoader]-[DEBUG]  [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Dispatcher$Adpative implements com.alibaba.dubbo.remoting.Dispatcher {
+public com.alibaba.dubbo.remoting.ChannelHandler dispatch(com.alibaba.dubbo.remoting.ChannelHandler arg0, com.alibaba.dubbo.common.URL arg1) {
+if (arg1 == null) throw new IllegalArgumentException(&quot;url == null&quot;);
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = url.getParameter(&quot;dispatcher&quot;, url.getParameter(&quot;dispather&quot;, url.getParameter(&quot;channel.handler&quot;, &quot;all&quot;)));
+if(extName == null) throw new IllegalStateException(&quot;Fail to get extension(com.alibaba.dubbo.remoting.Dispatcher) name from url(&quot; + url.toString() + &quot;) use keys([dispatcher, dispather, channel.handler])&quot;);
+com.alibaba.dubbo.remoting.Dispatcher extension = (com.alibaba.dubbo.remoting.Dispatcher)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Dispatcher.class).getExtension(extName);
+return extension.dispatch(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,147 [main] [com.alibaba.dubbo.common.extension.ExtensionLoader]-[DEBUG]  [DUBBO] package com.alibaba.dubbo.common.threadpool;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ThreadPool$Adpative implements com.alibaba.dubbo.common.threadpool.ThreadPool {
+public java.util.concurrent.Executor getExecutor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException(&quot;url == null&quot;);
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter(&quot;threadpool&quot;, &quot;fixed&quot;);
+if(extName == null) throw new IllegalStateException(&quot;Fail to get extension(com.alibaba.dubbo.common.threadpool.ThreadPool) name from url(&quot; + url.toString() + &quot;) use keys([threadpool])&quot;);
+com.alibaba.dubbo.common.threadpool.ThreadPool extension = (com.alibaba.dubbo.common.threadpool.ThreadPool)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.common.threadpool.ThreadPool.class).getExtension(extName);
+return extension.getExecutor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,195 [main] [org.jboss.netty.channel.socket.nio.NioProviderMetadata]-[DEBUG]  [DUBBO] Using the autodetected NIO constraint level: 0, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,279 [main] [com.alibaba.dubbo.remoting.transport.AbstractServer]-[INFO]  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /10.254.5.225:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,282 [main] [com.alibaba.dubbo.config.AbstractConfig]-[INFO]  [DUBBO] The service ready on spring started. service: cn.itcast.core.service.ColorService, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,302 [main] [com.alibaba.dubbo.config.AbstractConfig]-[INFO]  [DUBBO] Export dubbo service cn.itcast.core.service.ColorService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,302 [main] [com.alibaba.dubbo.config.AbstractConfig]-[INFO]  [DUBBO] Export dubbo service cn.itcast.core.service.ColorService to url dubbo://10.254.5.225:20880/cn.itcast.core.service.ColorService?anyhost=true&amp;application=babasport-service-product&amp;dubbo=2.5.3&amp;interface=cn.itcast.core.service.ColorService&amp;methods=findAll&amp;pid=7072&amp;revision=0.0.1-SNAPSHOT&amp;side=provider&amp;timestamp=1504959076289, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,303 [main] [com.alibaba.dubbo.config.AbstractConfig]-[INFO]  [DUBBO] The service ready on spring started. service: cn.itcast.core.service.ProductService, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,323 [main] [com.alibaba.dubbo.config.AbstractConfig]-[INFO]  [DUBBO] Export dubbo service cn.itcast.core.service.ProductService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,327 [main] [com.alibaba.dubbo.config.AbstractConfig]-[INFO]  [DUBBO] Export dubbo service cn.itcast.core.service.ProductService to url dubbo://10.254.5.225:20880/cn.itcast.core.service.ProductService?anyhost=true&amp;application=babasport-service-product&amp;dubbo=2.5.3&amp;interface=cn.itcast.core.service.ProductService&amp;methods=fingByExample&amp;pid=7072&amp;revision=0.0.1-SNAPSHOT&amp;side=provider&amp;timestamp=1504959076310, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-09-09 20:11:16,329 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key &apos;spring.liveBeansView.mbeanDomain&apos; in [systemProperties]
+2017-09-09 20:11:16,329 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key &apos;spring.liveBeansView.mbeanDomain&apos; in [systemEnvironment]
+2017-09-09 20:11:16,329 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key &apos;spring.liveBeansView.mbeanDomain&apos; in any property source. Returning [null]
+2017-09-09 20:11:16,329 [main] [org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate]-[DEBUG] Storing ApplicationContext in cache under key [[MergedContextConfiguration@14790be testClass = ITestTbServiceTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]
+2017-09-09 20:11:16,330 [main] [org.springframework.test.context.cache]-[DEBUG] Spring test ApplicationContext cache statistics: [ContextCache@195fdf3 size = 1, hitCount = 0, missCount = 1, parentContextCount = 0]
+2017-09-09 20:11:16,332 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean &apos;cn.itcast.ITestTbServiceTest&apos;: AutowiredFieldElement for private cn.itcast.core.service.ITestTbService cn.itcast.ITestTbServiceTest.testTbService
+2017-09-09 20:11:16,332 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;testTbService&apos;
+2017-09-09 20:11:16,332 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name &apos;cn.itcast.ITestTbServiceTest&apos; to bean named &apos;testTbService&apos;
+2017-09-09 20:11:16,332 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+2017-09-09 20:11:16,339 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+2017-09-09 20:11:16,342 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean &apos;transactionManager&apos;
+2017-09-09 20:11:16,347 [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager]-[DEBUG] Creating new transaction with name [cn.itcast.core.service.impl.TestTbServiceImpl.saveTestTb]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+2017-09-09 20:11:16,419 [main] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-1} inited
+2017-09-09 20:11:16,624 [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager]-[DEBUG] Acquired Connection [com.mysql.jdbc.JDBC4Connection@8d5fa] for JDBC transaction
+2017-09-09 20:11:16,627 [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager]-[DEBUG] Switching JDBC Connection [com.mysql.jdbc.JDBC4Connection@8d5fa] to manual commit
+2017-09-09 20:11:16,632 [main] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2017-09-09 20:11:16,643 [main] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@111b313]
+2017-09-09 20:11:16,652 [main] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@8d5fa] will be managed by Spring
+2017-09-09 20:11:16,662 [main] [cn.itcast.core.dao.TestTbDao.insertTestTb]-[DEBUG] ==&gt;  Preparing: insert into test_tb (id,name,birthday) values (?,?,?) 
+2017-09-09 20:11:16,693 [main] [cn.itcast.core.dao.TestTbDao.insertTestTb]-[DEBUG] ==&gt; Parameters: null, ����(String), 2017-09-09 20:11:16.338(Timestamp)
+2017-09-09 20:11:16,699 [main] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@111b313]
+2017-09-09 20:11:16,707 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Adding [systemProperties] PropertySource with lowest search precedence
+2017-09-09 20:11:16,707 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-09-09 20:11:16,707 [main] [org.springframework.core.env.StandardEnvironment]-[DEBUG] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-09-09 20:11:16,707 [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]-[INFO] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-09-09 20:11:16,708 [main] [org.springframework.beans.factory.xml.DefaultDocumentLoader]-[DEBUG] Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-09-09 20:11:16,710 [main] [org.springframework.beans.factory.xml.BeansDtdResolver]-[DEBUG] Found beans DTD [http://www.springframework.org/dtd/spring-beans-2.0.dtd] in classpath: spring-beans-2.0.dtd
+2017-09-09 20:11:16,718 [main] [org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]-[DEBUG] Loading bean definitions
+2017-09-09 20:11:16,727 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;DB2&apos;
+2017-09-09 20:11:16,727 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;DB2&apos;
+2017-09-09 20:11:16,727 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;DB2&apos; to allow for resolving potential circular references
+2017-09-09 20:11:16,731 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;DB2&apos;
+2017-09-09 20:11:16,732 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;Derby&apos;
+2017-09-09 20:11:16,735 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;Derby&apos;
+2017-09-09 20:11:16,736 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;Derby&apos; to allow for resolving potential circular references
+2017-09-09 20:11:16,736 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;Derby&apos;
+2017-09-09 20:11:16,736 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;H2&apos;
+2017-09-09 20:11:16,736 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;H2&apos;
+2017-09-09 20:11:16,737 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;H2&apos; to allow for resolving potential circular references
+2017-09-09 20:11:16,737 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;H2&apos;
+2017-09-09 20:11:16,737 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;HSQL&apos;
+2017-09-09 20:11:16,737 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;HSQL&apos;
+2017-09-09 20:11:16,737 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;HSQL&apos; to allow for resolving potential circular references
+2017-09-09 20:11:16,738 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;HSQL&apos;
+2017-09-09 20:11:16,738 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;Informix&apos;
+2017-09-09 20:11:16,738 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;Informix&apos;
+2017-09-09 20:11:16,738 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;Informix&apos; to allow for resolving potential circular references
+2017-09-09 20:11:16,738 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;Informix&apos;
+2017-09-09 20:11:16,738 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;MS-SQL&apos;
+2017-09-09 20:11:16,738 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;MS-SQL&apos;
+2017-09-09 20:11:16,738 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;MS-SQL&apos; to allow for resolving potential circular references
+2017-09-09 20:11:16,739 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;MS-SQL&apos;
+2017-09-09 20:11:16,739 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;MySQL&apos;
+2017-09-09 20:11:16,739 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;MySQL&apos;
+2017-09-09 20:11:16,740 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;MySQL&apos; to allow for resolving potential circular references
+2017-09-09 20:11:16,740 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;MySQL&apos;
+2017-09-09 20:11:16,740 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;Oracle&apos;
+2017-09-09 20:11:16,740 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;Oracle&apos;
+2017-09-09 20:11:16,740 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;Oracle&apos; to allow for resolving potential circular references
+2017-09-09 20:11:16,742 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;Oracle&apos;
+2017-09-09 20:11:16,742 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;PostgreSQL&apos;
+2017-09-09 20:11:16,742 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;PostgreSQL&apos;
+2017-09-09 20:11:16,742 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;PostgreSQL&apos; to allow for resolving potential circular references
+2017-09-09 20:11:16,742 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;PostgreSQL&apos;
+2017-09-09 20:11:16,743 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;Sybase&apos;
+2017-09-09 20:11:16,743 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;Sybase&apos;
+2017-09-09 20:11:16,743 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;Sybase&apos; to allow for resolving potential circular references
+2017-09-09 20:11:16,743 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;Sybase&apos;
+2017-09-09 20:11:16,744 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean &apos;Hana&apos;
+2017-09-09 20:11:16,744 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean &apos;Hana&apos;
+2017-09-09 20:11:16,744 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean &apos;Hana&apos; to allow for resolving potential circular references
+2017-09-09 20:11:16,744 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean &apos;Hana&apos;
+2017-09-09 20:11:16,744 [main] [org.springframework.jdbc.support.SQLErrorCodesFactory]-[INFO] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-09-09 20:11:16,745 [main] [org.springframework.jdbc.support.SQLErrorCodesFactory]-[DEBUG] Looking up default SQLErrorCodes for DataSource [{
+	CreateTime:&quot;2017-09-09 20:11:15&quot;,
+	ActiveCount:1,
+	PoolingCount:0,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:1,
+	Connections:[
+	]
+}]
+2017-09-09 20:11:16,748 [main] [org.springframework.jdbc.support.SQLErrorCodesFactory]-[DEBUG] Database product name cached for DataSource [com.alibaba.druid.pool.DruidDataSource@bedbdd]: name is &apos;MySQL&apos;
+2017-09-09 20:11:16,748 [main] [org.springframework.jdbc.support.SQLErrorCodesFactory]-[DEBUG] SQL error codes for &apos;MySQL&apos; found
+2017-09-09 20:11:16,749 [main] [org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator]-[DEBUG] Translating SQLException with SQL state &apos;42S02&apos;, error code &apos;1146&apos;, message [Table &apos;babasport.test_tb&apos; doesn&apos;t exist]; SQL was [] for task [
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+### The error may involve cn.itcast.core.dao.TestTbDao.insertTestTb-Inline
+### The error occurred while setting parameters
+### SQL: insert into test_tb    (id,name,birthday)   values   (?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+]
+2017-09-09 20:11:16,749 [main] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@111b313]
+2017-09-09 20:11:16,749 [main] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@111b313]
+2017-09-09 20:11:16,750 [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager]-[DEBUG] Initiating transaction rollback
+2017-09-09 20:11:16,750 [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager]-[DEBUG] Rolling back JDBC transaction on Connection [com.mysql.jdbc.JDBC4Connection@8d5fa]
+2017-09-09 20:11:16,751 [main] [org.springframework.jdbc.datasource.DataSourceTransactionManager]-[DEBUG] Releasing JDBC Connection [com.mysql.jdbc.JDBC4Connection@8d5fa] after transaction
+2017-09-09 20:11:16,751 [main] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2017-09-09 20:11:16,753 [main] [org.springframework.test.context.support.DirtiesContextTestExecutionListener]-[DEBUG] After test method: context [DefaultTestContext@1aabda3 testClass = ITestTbServiceTest, testInstance = cn.itcast.ITestTbServiceTest@88485f, testMethod = test@ITestTbServiceTest, testException = org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+### The error may involve cn.itcast.core.dao.TestTbDao.insertTestTb-Inline
+### The error occurred while setting parameters
+### SQL: insert into test_tb    (id,name,birthday)   values   (?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table &apos;babasport.test_tb&apos; doesn&apos;t exist, mergedContextConfiguration = [MergedContextConfiguration@14790be testClass = ITestTbServiceTest, locations = &apos;{classpath:application-context.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]], class dirties context [false], class mode [null], method dirties context [false].
+</system-out>
+    <system-err>SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/D:/babasportMaven/repository/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/D:/babasportMaven/repository/org/apache/activemq/activemq-all/5.8.0/activemq-all-5.8.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+</system-err>
+  </testcase>
+</testsuite>

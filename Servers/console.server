@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/console-config" deployDir="wtpwebapps" hostname="localhost" id="console" name="console" runtime-id="console" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="450" stop-timeout="150" testEnvironment="true" timestamp="6">
+  <list key="modules" value0="babasport-console::org.eclipse.jst.jee.server:babasport-console::jst.web::2.5"/>
+</server>

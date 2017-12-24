@@ -1,0 +1,30 @@
+package cn.itcast.core.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * springmvc测试处理器
+ * 
+ * @author libin
+ *
+ */
+@RequestMapping("console")
+@Controller
+public class CenterController {
+
+	// 入口
+	/**
+	 * 返回值类型：modelandview:跳转视图+数据 一般不用 void：异步ajax String ：跳转视图 加model 这样达到了
+	 * 视图和数据分开的目的
+	 * 
+	 * @param model
+	 * @return
+	 */
+	@RequestMapping(value = "index")
+	public String testIndex(Model model) {
+		model.addAttribute("msg", "ldnyqf");
+		return "index";
+	}
+}
